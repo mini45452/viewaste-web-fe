@@ -28,7 +28,7 @@ const SimplePage = () => {
     formData.append('image', file);
 
     try {
-      const response = await fetch('http://merdekarecycle.com:37100/hello_app/classify/', {
+      const response = await fetch('https://merdekarecycle.com:37100/hello_app/classify/', {
         method: 'POST',
         body: formData,
       });
